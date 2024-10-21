@@ -1,0 +1,122 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+body {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  height: 100vh;
+  background: linear-gradient(135deg, blue, purple);
+}
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.weather_container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.cityAndDateAndTime {
+  line-height: 1.4;
+  text-align: center;
+}
+.weather_container .cityAndDateAndTime .city {
+  font-size: 2.5rem;
+  color: whitesmoke;
+}
+
+.dateAndTime {
+  font-size: 1.5rem;
+  color: whitesmoke;
+}
+.dateAndTime span {
+  margin: 0 5px;
+}
+.dateAndTime .time {
+  margin-left: 40px;
+}
+/* Temperature */
+.Temperature {
+  font-size: 3rem;
+  color: whitesmoke;
+}
+/* WEATHER IMG CONTAINER STYLE  */
+.weatherImages {
+  width: 150px;
+  height: 150px;
+}
+
+.weatherImages img {
+  width: 100%;
+}
+.weatherStatus p {
+  color: whitesmoke;
+  margin: 5px 0;
+}
+/* WEATHER DETAILS  */
+.weatherDetails {
+  display: flex;
+  column-gap: 50px;
+  text-align: center;
+  color: whitesmoke;
+}
+.humidity  {
+  display: flex;
+column-gap: 10px;
+}
+.humidity .humidityIcon i{
+    font-size: 2rem;
+}
+.wind_kph{
+    display: flex;
+    column-gap: 10px;
+}
+.windIcon{
+    font-size: 2rem;
+}
+
+/* SEARCH CONTAINER  */
+.search_container {
+  width: 90%;
+  height: 50px;
+  display: flex;
+  background-color: lightpink;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.search_container input,
+button {
+  height: 100%;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+.search_container input {
+  flex: 1;
+
+  background: none;
+  border: none;
+  outline: none;
+  padding-left: 20px;
+}
+.search_container button {
+  background: none;
+  display: block;
+  width: 60px;
+  border: none;
+  border-left: 2px solid black;
+  outline: none;
+}

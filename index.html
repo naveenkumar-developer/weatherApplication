@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>weather web application</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="weather_container">
+        <div class="cityAndDateAndTime">
+          <h2 id="city" class="city">Tiruppur</h2>
+          <p class="dateAndTime">
+            <span id="day" class="day">monday</span>-<span
+              id="date"
+              class="date"
+              >16</span
+            >-<span id="month" class="month">may</span
+            ><span id="time" class="time">23.00</span>
+          </p>
+        </div>
+        <div class="Temperature">
+          <h2 id="Temperature">100°C</h2>
+        </div>
+        <div class="weatherImages">
+          <img id="weather_icon" alt="weather image status" />
+        </div>
+        <div id="weatherStatus" class="weatherStatus">
+          <p>rainy</p>
+        </div>
+        <div class="weatherDetails">
+          <div id="humidityArea" class="humidity">
+            <div class="humidityIcon">
+                <i class="fa-solid fa-water"></i>
+            </div>
+            <div>
+                <h3>humidity</h3>
+                <p>11 %</p>
+            </div>
+          </div>
+          <div id="wind_kph" class="wind_kph">
+            <div class="windIcon">
+                <i class="fa-solid fa-wind"></i>
+            </div>
+            <div>
+                <h3>wind_kph</h3>
+                <p>11 kph</p>
+            </div>
+          </div>
+        </div>
+        <div class="search_container">
+          <input id="citySearch" type="text" placeholder="Enter the city" />
+          <button id="citySearchBtn" type="button">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
