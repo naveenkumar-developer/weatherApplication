@@ -1,5 +1,5 @@
 // THE DEFAULT CITY NAME
-let targetCity = "tiruppur";
+let targetCity = "chennai";
 
 // ACCESS ALL NECESSARY ELEMENTS IN DOCUMENT
 
