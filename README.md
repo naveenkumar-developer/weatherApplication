@@ -6,7 +6,7 @@ This project is a Weather App that displays current weather information for any 
 
 ## Importent News 
 
-This api give **http request** so kindly open the link on edge browser for work properly.
+This api give **http request** so kindly open the link on **microsoft edge** browser for work properly.
 
 ---
 
