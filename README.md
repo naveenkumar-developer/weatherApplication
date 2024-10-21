@@ -4,7 +4,15 @@ This project is a Weather App that displays current weather information for any 
 
 ---
 
+## Importent News 
+
+This api give **http request** so kindly open the link on edge browser for work properly.
+
+---
+
 # DEMO
+
+Open the project click [here](https://naveenkumar-developer.github.io/weatherApplication/)
 
 ![weather app image](assets/Screenshot%202024-10-21%20195728.png)
 
