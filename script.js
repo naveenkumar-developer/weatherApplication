@@ -17,7 +17,7 @@ let weatherStatusText = document.querySelector("#weatherStatus p");
 const fetchData = async (cityName) => {
   try{
 
-    let url = `http://api.weatherapi.com/v1/current.json?key=560dcd07d1a54ea2a0b162605241910&q=${cityName}&aqi=no`;
+    let url = `https://api.weatherapi.com/v1/current.json?key=560dcd07d1a54ea2a0b162605241910&q=${cityName}&aqi=no`;
     let res = await fetch(url);
     let data = await res.json();
     let locationName = data.location.name;
